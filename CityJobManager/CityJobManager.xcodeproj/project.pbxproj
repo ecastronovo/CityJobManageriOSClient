@@ -101,9 +101,11 @@
 		95E36257259EF05C00250407 /* CityJobManager */ = {
 			isa = PBXGroup;
 			children = (
+				95E3628E259EF8C500250407 /* ViewControllers */,
+				95E36292259EF8F800250407 /* Models */,
+				95E36293259EF91000250407 /* UIClasses */,
 				95E36258259EF05C00250407 /* AppDelegate.swift */,
 				95E3625A259EF05C00250407 /* SceneDelegate.swift */,
-				95E3625C259EF05C00250407 /* ViewController.swift */,
 				95E3625E259EF05C00250407 /* Main.storyboard */,
 				95E36264259EF05D00250407 /* Assets.xcassets */,
 				95E36266259EF05D00250407 /* LaunchScreen.storyboard */,
@@ -129,6 +131,28 @@
 				95E3627F259EF05D00250407 /* Info.plist */,
 			);
 			path = CityJobManagerUITests;
+			sourceTree = "<group>";
+		};
+		95E3628E259EF8C500250407 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95E3625C259EF05C00250407 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		95E36292259EF8F800250407 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95E36293259EF91000250407 /* UIClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
