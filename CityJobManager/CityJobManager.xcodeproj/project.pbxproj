@@ -19,6 +19,7 @@
 		95E36295259EF98800250407 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E36294259EF98800250407 /* HomeViewController.swift */; };
 		95E3629D259EFA0500250407 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3629C259EFA0500250407 /* Task.swift */; };
 		95E362A2259EFC0B00250407 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E362A1259EFC0B00250407 /* User.swift */; };
+		95E362A8259EFC6B00250407 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E362A7259EFC6B00250407 /* AuthenticationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		95E36294259EF98800250407 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		95E3629C259EFA0500250407 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		95E362A1259EFC0B00250407 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		95E362A7259EFC6B00250407 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				95E3628E259EF8C500250407 /* ViewControllers */,
 				95E36292259EF8F800250407 /* Models */,
 				95E36293259EF91000250407 /* UIClasses */,
+				95E362A6259EFC4200250407 /* ManagerClasses */,
 				95E36258259EF05C00250407 /* AppDelegate.swift */,
 				95E3625A259EF05C00250407 /* SceneDelegate.swift */,
 				95E3625E259EF05C00250407 /* Main.storyboard */,
@@ -162,6 +165,14 @@
 			children = (
 			);
 			path = UIClasses;
+			sourceTree = "<group>";
+		};
+		95E362A6259EFC4200250407 /* ManagerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				95E362A7259EFC6B00250407 /* AuthenticationManager.swift */,
+			);
+			path = ManagerClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95E36295259EF98800250407 /* HomeViewController.swift in Sources */,
+				95E362A8259EFC6B00250407 /* AuthenticationManager.swift in Sources */,
 				95E3625D259EF05C00250407 /* ViewController.swift in Sources */,
 				95E36259259EF05C00250407 /* AppDelegate.swift in Sources */,
 				95E36263259EF05C00250407 /* CityJobManager.xcdatamodeld in Sources */,
